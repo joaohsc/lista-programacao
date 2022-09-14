@@ -1,0 +1,18 @@
+Alternativas:
+
+p = i;
+q = &j;
+p = &*&i;
+i = (*&)j;
+i = *&j;
+i = *&*&j;
+q = *p;
+i = (*p)++ + *q;
+
+Soluções:
+
+i = (*&)j; // Ilegal: o () está isolando os simbolos da variável j, impossibilitando a leitura do código, o correto seria (*&j)
+
+p = i; // alerta de sintaxe, neste caso, se espera que o ponteiro "p" receba o endereço de i, p = &i
+
+q = *p; // alerta de sintaxe, como estamos falando de dois ponteiros o correto é tirar o asterisco: q = p

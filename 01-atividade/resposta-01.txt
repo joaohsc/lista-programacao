@@ -1,0 +1,14 @@
+(p == &i): retorna 1;
+//resposta: A comparação p == &i retorna o valor true, ou seja 1, pois "p" possui o endereço de "i"
+
+(*p - *q): retorna -2;
+//resposta: A operação *p - *q retorna o valor -2, pois puxa os conteudos de i e j, ou seja, temos 3 - 5 = -2
+
+(**&p): retorna 3;
+
+//resposta: **&p consulta o endereço de p e em seguida o seu conteúdo que é o endereço de i, o último * consulta o conteúdo de i, retornando: 3
+
+(3 - *p/(*q) + 7): retorna 10;
+
+//resposta: *p=3; *q=5; Dessa forma a operação fica: 3 - 3/5 + 7 = 10 */
+
