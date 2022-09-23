@@ -1,0 +1,9 @@
+
+// Neste contexto, não se pode incrementar o tipo int no pronteiro "p", 
+// por isso, apenas a primeia e última alternativa estão corretas
+
+p = mat + 1; // correto
+p = mat++; // errado
+p = ++mat; // errado
+x = (*mat)++; // correto
+

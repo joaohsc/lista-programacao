@@ -1,0 +1,6 @@
+// Para pegar o conteúdo do terceiro elemento usamos: 
+
+*(pulo + 2)
+
+// pois representa 2 deslocamentos a partir da primeira posição, resultando
+no terceiro elemento 

@@ -1,0 +1,7 @@
+Os dois códigos pegam um vetor vet e percorrem utilizando um for.
+
+A diferença dos códigos é que no primeiro com printf("%d ",*(vet+i));
+> O conteúdo do vetor é impresso "4 9 13".
+
+Já no segundo código, com printf("%X ",vet+i);
+> O endereço do vetor é impresso "1728C490 1728C494 1728C498" 

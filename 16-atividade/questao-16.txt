@@ -1,0 +1,6 @@
+Se observa um tempo de execução na ordenação própria, provalvemente pela redução da complexidade da função
+se comparado ao qsort
+
+tempo de execução com qsort: 0.006000
+
+tempo de execução com a ordenação própria: 0.002000
